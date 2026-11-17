@@ -11,7 +11,5 @@ class Solution:
                     open_count -= 1
                 else:
                     close_count += 1
-            
-            print(open_count, close_count)
         
-        return abs(open_count+close_count)
+        return open_count+close_count
